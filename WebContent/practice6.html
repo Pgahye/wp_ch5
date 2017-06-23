@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>4장 간단한 회원 가입폼</title>
+<style type="text/css">
+
+body	{
+	font-family: "맑은 고딕";
+	font-size: 0.75em;
+	color: #333;
+}
+
+#login-form input{
+	display:block; 
+	margin-top:10px;
+	outline: none;
+	 }
+
+#login-form input[type="text"],
+#login-form input[type="password"] {
+	padding: 5px;
+}
+
+
+
+#login-form	
+	{	 width:180px; 
+	/padding:10px; 
+	/border:1px solid #666; 
+	margin:50px auto; 
+	/border-radius:10px 
+	}
+
+input[type="submit"]	
+	{ display:block; 
+	border:1px solid #aaa; 
+	padding:10px; 
+	width: 170.8px; 
+	background-color: #FFFFFF;
+	}
+
+#login-form input[type="submit"]:hover{
+	background-color: #11ff00;
+	color : #fff;
+	cursor: bold;
+}
+
+</style>
+</head>
+<body>
+	<form id="login-form" method="get" action="">
+		
+	
+		<input name="userid" type="text" placeholder="아이디">
+
+		
+	
+		<input name="passwprd" type="password"  placeholder="패스워드">
+		
+		
+		<input type="submit" value="가입">
+	</form>
+</body>
+</html>
